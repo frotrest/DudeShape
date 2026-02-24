@@ -1,0 +1,145 @@
+.footer {
+    background: rgba(249, 246, 245, 1);
+}
+
+.footerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 110px;
+    padding-bottom: 50px;
+}
+
+.footerTopContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 65px;
+}
+
+.footerTopContentTitle {
+    color: rgba(34, 34, 34, 1);
+    font-family: 'Red Hat Display';
+    font-style: Medium;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 46px;
+    letter-spacing: 0%;
+}
+
+.emailForm {
+    display: flex;
+    align-items: center;
+}
+
+.emailFormLabel {
+    background: rgba(255, 255, 255, 1);
+    padding: 10px;
+}
+
+.emailFormLabelInput {
+    background: none;
+    border: none;
+    outline: none;
+    color: rgba(85, 85, 85, 1);
+    font-family: 'Red Hat Display';
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 300px
+}
+
+.emailFormBtn {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Red Hat Display';
+    font-style: Medium;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: font-weight 0.3s ease;
+    background: rgba(64, 47, 44, 1);
+    border: none;
+}
+
+.emailFormBtn:hover {
+    font-weight: 800;
+}
+
+.footerBottomContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(221, 221, 221, 1);
+    padding-top: 60px;
+}
+
+.infoBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.infoBlockLogo {
+    color: rgba(34, 34, 34, 1);
+    font-family: 'Red Hat Display';
+    font-style: Italic;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-decoration-line: underline;
+}
+
+.infoBlockItem {
+    width: 325px;
+    color: rgba(85, 85, 85, 1);
+    font-family: 'Red Hat Display';
+    font-style: 'Regular';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+}
+
+.infoBlockTitle {
+    color: rgba(34, 34, 34, 1);
+    font-family: 'Red Hat Display';
+    font-style: Medium;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.infoList {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    list-style: none;
+    padding: 0px;
+}
+
+.infoListItem {
+    color: rgba(34, 34, 34, 1);
+    font-family: 'Red Hat Display';
+    font-style: 'Regular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-decoration: none;
+}
+
+.infoSocials {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}

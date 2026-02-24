@@ -1,0 +1,48 @@
+.headerTop {
+  padding-top: 40px;
+}
+
+.headerTopContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerTopContentTitle {
+  color: rgba(34, 34, 34, 1);
+  font-family: "Red Hat Display";
+  font-style: Italic;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-decoration-line: underline;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.navBarItem {
+  color: rgba(34, 34, 34, 1);
+  font-family: "Red Hat Display";
+  font-style: "Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-decoration: none;
+  transition: font-weight 0.3s ease;
+}
+
+.navBarItem:hover {
+  font-weight: 700;
+}
+
+.socialLinks {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}

@@ -1,0 +1,12 @@
+.partners {
+  padding-top: 170px;
+}
+
+.partnersContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  border-top: 3px solid rgba(238, 238, 238, 1);
+  border-bottom: 3px solid rgba(238, 238, 238, 1);
+}

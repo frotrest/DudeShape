@@ -1,0 +1,72 @@
+.customer {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.customerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.customerContentText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.customerContentTextTitle {
+  color: rgba(34, 34, 34, 1);
+  font-family: "Red Hat Display";
+  font-style: Medium;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0%;
+}
+
+.customerContentTextItem {
+  color: rgba(85, 85, 85, 1);
+  font-family: "Red Hat Display";
+  font-style: "Regular";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  width: 610px;
+}
+
+.customerContentInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 60px;
+  gap: 10px;
+}
+
+.customerContentInfoTitle {
+  color: rgba(34, 34, 34, 1);
+  font-family: "Red Hat Display";
+  font-style: Medium;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0%;
+}
+
+.customerContentInfoJob {
+  color: rgba(85, 85, 85, 1);
+  font-family: "Red Hat Display";
+  font-style: "Regular";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+}

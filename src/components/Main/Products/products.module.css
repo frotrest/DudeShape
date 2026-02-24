@@ -1,0 +1,149 @@
+.products {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.productsContent {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.productsContentText {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.productsContentTextBlockTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.productsContentTextBlockTitle {
+  color: rgba(0, 0, 0, 1);
+  font-family: "Red Hat Display";
+  font-style: Medium;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 70px;
+  letter-spacing: 0%;
+  width: 510px;
+}
+
+.productsContentTextBlockItem {
+  width: 670px;
+  color: rgba(85, 85, 85, 1);
+  font-family: "Red Hat Display";
+  font-style: "Regular";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
+
+.productsContentTextLink {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: rgba(34, 34, 34, 1);
+  font-family: "Red Hat Display";
+  font-style: Medium;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-decoration-line: underline;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  border: 2px solid rgba(104, 90, 82, 0.19);
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 0px 30px 30px 30px;
+}
+
+.cardTitle {
+  color: rgba(34, 34, 34, 1);
+  font-family: "Red Hat Display";
+  font-style: Medium;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: 0%;
+}
+
+.cardItem {
+  color: rgba(85, 85, 85, 1);
+  font-family: "Red Hat Display";
+  font-style: "Regular";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  width: 515px;
+}
+
+.cardAdditional {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.cardBtns {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.cardBtn {
+  background: none;
+  border: 2px solid rgba(104, 90, 82, 0.46);
+  padding: 15px 30px;
+  color: rgba(64, 47, 44, 1);
+  font-family: "Red Hat Display";
+  font-style: Medium;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  transition: all 0.3s ease;
+}
+
+.cardBtn:hover {
+  cursor: pointer;
+  background-color: rgba(64, 47, 44, 1);
+  color: white;
+  border: 2px solid rgba(64, 47, 44, 1);
+}
+
+.cardAdditionalPrice {
+  color: rgba(34, 34, 34, 1);
+  font-family: "Red Hat Display";
+  font-style: Medium;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
