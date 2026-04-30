@@ -10,6 +10,7 @@ export default class Card extends Component {
           src={this.props.cardImg}
           alt={this.props.cardAlt}
           className={clsx(styles.cardImg)}
+          loading='lazy'
         />
         <div className={clsx(styles.cardContent)}>
           <h2 className={clsx(styles.cardTitle)}>Cosmetic products</h2>
