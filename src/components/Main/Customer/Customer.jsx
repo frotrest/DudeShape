@@ -11,7 +11,7 @@ export default class Customer extends Component {
     return (
       <section className={clsx(styles.customer)}>
         <Container className={clsx(styles.customerContent)}>
-          <img src={customer} alt="customer" data-animate="fadeInLeft" />
+          <img src={customer} alt="customer" data-animate="fadeInLeft" loading='lazy' />
           <div
             className={clsx(styles.customerContentText)}
             data-animate="fadeInRight"
