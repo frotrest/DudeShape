@@ -36,6 +36,7 @@ export default class Advantages extends Component {
             src={exampleImg}
             alt="exampleBottle"
             data-animate="fadeInRight"
+            loading='lazy'
           />
         </Container>
       </section>
