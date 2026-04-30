@@ -2,8 +2,8 @@ import { Component } from "react";
 import styles from "./products.module.css";
 import clsx from "clsx";
 import Card from "./Card";
-import pumpleBottle from "@assets/img/pump-bottle.png";
-import jar from "@assets/img/jar.png";
+import pumpleBottle from "@assets/img/pump-bottle.webp";
+import jar from "@assets/img/jar.webp";
 
 const imgs = [
   {

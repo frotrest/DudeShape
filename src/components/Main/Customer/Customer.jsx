@@ -2,7 +2,7 @@ import { Component } from "react";
 import styles from "./customer.module.css";
 import clsx from "clsx";
 import Container from "../../Container";
-import customer from "@assets/img/customer.png";
+import customer from "@assets/img/customer.webp";
 import { AiFillStar } from "react-icons/ai";
 import { RiDoubleQuotesL, RiDoubleQuotesR } from "react-icons/ri";
 
