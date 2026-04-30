@@ -2,7 +2,7 @@ import { Component } from "react";
 import styles from "./advantages.module.css";
 import clsx from "clsx";
 import Container from "../../Container";
-import exampleImg from "@assets/img/example-bottle.png";
+import exampleImg from "@assets/img/example-bottle.webp";
 
 export default class Advantages extends Component {
   render() {
